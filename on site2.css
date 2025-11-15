@@ -1,0 +1,375 @@
+*{
+  margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ 
+}
+body{
+  background: #fff;
+}
+
+header {
+  height: 100vh;
+  background: url(/IMG-20251030-WA0053.jpg) center center/cover no-repeat;
+}
+.logo img {
+width: 80px;
+margin-left: 50px;
+padding: 5px;
+border-radius: 10px;
+}
+  .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+  nav ul {
+  display: flex;
+  margin-right: 20px;
+  font-size: small;
+  color: white;
+}
+ ul{
+  list-style: none;
+}
+ ul a {
+  text-decoration: none;
+  padding: 15px 20px;
+  color: white;
+}
+ul a:hover{
+  border-bottom: 2px solid #F0A93F;
+}
+header .text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 75%;
+}
+.mm {
+  color: #DBB06F;
+}
+.text h1{
+  font-size: 30px;
+  color: white;
+}
+.text p{
+  margin: 20px 0 40px;
+  color: white;
+}
+.text a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border: none;
+  border-radius: 10px  15px;
+  border: 1px solid white;
+}
+.text a:hover {
+  background: #DFAF67;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background: white;
+   height: 80vh;
+}
+#about .titel{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+#about h2{
+  font-size: 40px;
+  color: #383848;
+  margin-bottom: 20px;
+}
+#about .titel  p{
+  font-size: 14px;
+  color: #9a9a9a;
+  font-weight: 500;
+}
+#about .about-biba {
+  display: flex;
+  justify-content: space-between;
+}
+#about .about-biba  p{
+  color: #9a9a9a;
+  margin-right: 2rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+#about .about-biba img {
+  width: 450px;
+}
+#about .about-biba a{
+  text-decoration: none;
+  background:  #42445A;
+  color: white;
+  border-radius: 10px 15px;
+  padding: 5px;
+  margin-top: 2rem;
+  display: inline-block;
+}
+#about .about-biba a:hover{
+  background: #D7860C;
+}
+#habiba {
+ height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#habiba .fg{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+#habiba .container{
+  background: url(/IMG-20251030-WA0059.jpg) center center/cover no-repeat fixed;
+  max-width: 1100px;
+}
+#habiba h2{
+   font-size: 40px;
+  color: #FFC94E;
+  margin-bottom: 20px;
+  margin: 15px 0;
+}
+#habiba p{
+  color: white;
+  font-weight: 500;
+}
+#habiba .offers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+#habiba .offers img {
+  width: 200px;
+  border-radius: 100px;
+  border: none;
+}
+
+#habiba .fg p{
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  padding: 0 20px;
+}
+#habiba .offers p{
+   font-size: 14px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  padding: 0 20px;
+}
+  #habiba span {
+   color: #FFC94E;
+  font-size: 18px;
+  margin-left: 5px;
+  font-weight: 600;
+}
+#menu{
+  background: white;
+  padding: 5rem 0;
+}
+#menu .titel {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+#menu .titel h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#menu h2{
+  color: #42445A;
+}
+#menu .titel p{
+  font-size: 14px;
+  color: #9a9a9a;
+  font-weight: 600;
+}
+#menu .menu-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#menu .menu-items .menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+#menu .menu-items .menu-item img {
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+#menu .menu-items .menu-item h3{
+  color: #383848;
+  border-bottom: 1px #c2bdbd;
+  padding-bottom: 10px;
+  position: relative;
+}
+#menu .menu-items .menu-item span{
+  position: absolute;
+  color: #EAE85A;
+  top: 0;
+  right: 0;
+}
+#menu .menu-items .menu-item p{
+  margin-bottom: 10px;
+}
+#menu .btn {
+  background: yellow;
+  display: block;
+  color: white;
+  margin:  20px auto 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px;
+}
+#menu .btn:hover{
+  background: #383848;
+  transition: 3.s;
+}
+#day {
+  background: url(/IMG-20251030-WA0062.jpg) center center/cover fixed;
+  color: white;
+  text-align: center;
+}
+#day .day-biba{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+}
+#day .day-bibas img{
+  border-radius: 10px;
+}
+#day .day-bibas h3{
+  font-size: 32px;
+  margin: 20px 0 10px;
+}
+#day .day-bibas p{
+  font-weight: 500;
+}
+#gamal .gamal-img img{
+  width: 280px;
+  height: 200px;
+  border-radius: 15px;
+  margin: 20px;
+  
+}
+#gamal {
+  background: url(/IMG-20251030-WA0059.jpg) center center/cover no-repeat fixed;
+  padding: 8rem 0 6rem;
+
+}
+#gamal h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+#gamal .gamal-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#shahat .on img{
+  width: 20px;
+}
+#shahat .in img {
+  width: 40px;
+}
+#shahat {
+  padding: 5rem 0;
+  background: white;
+}
+#shahat .container {
+  max-width: 900px;
+}
+#shahat .fg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#shahat .fg .gh{
+  width: 50%;
+}
+
+#shahat  .on {
+  margin: 20px 0;
+  width: 50%;
+ line-height: 1.8;
+}
+#shahat .on h3{
+ font-size: 28px;
+ color: #42445A;
+ margin-bottom: 10px;
+}
+#shahat .on p{
+   color: #9a9a9a;
+}
+#shahat  .in {
+  margin: 20px 0;
+  width: 50%;
+ line-height: 1.8;
+}
+#shahat  .in h3{
+  font-size: 28px;
+ color: #42445A;
+ margin-bottom: 10px;
+}
+
+#shahat  .for  {
+  margin: 20px 0;
+  width: 50%;
+ line-height: 1.8;
+}
+#shahat  .for h3{
+   font-size: 28px;
+ color: #42445A;
+ margin-bottom: 10px
+}
+#shahat  .for p{ 
+  color: #9a9a9a;
+}
+form{
+  width: 50%;
+}
+form input, 
+textarea {
+  display: block;
+  width: 100%;
+  padding: 20px 15px;
+  margin: 20px 0;
+  border: none;
+  background-color: #e3e2dd;
+}
+#shahat .btn {
+  background: #ECC01A;
+  color: #eff;
+  padding: 10px;
+  border-radius: 15px;
+}
+#shahat .btn:hover{
+  background-color: #28233F;
+}
+footer {
+  background: #28233F;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding: 15px 0;
+}
